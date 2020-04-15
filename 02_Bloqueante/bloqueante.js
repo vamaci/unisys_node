@@ -1,7 +1,7 @@
 const fs = require('fs')
 const data = fs.readFileSync('Prueba.txt', {encoding: 'UTF-8'})
 console.log(data)
-let data1 = 
+let data1 
 fs.readFile('Prueba2.txt', {encoding: 'UTF-8'}, (err, data)=>{
     if(err){
         console.log(err) 
