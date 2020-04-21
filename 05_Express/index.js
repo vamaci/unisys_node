@@ -2,6 +2,9 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+
+app.use(express.static(__dirname + '/public'))// __dirname es una constatnte que coge la raiz del proyecto
+
 app.get('/', (error, request, response, next) => { //en Node.js este es el orden de parametros ,error primero siempre
    response.send('¡Hola Mundo!')
 })

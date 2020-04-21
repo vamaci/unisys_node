@@ -1,0 +1,19 @@
+[
+    
+    { 
+        "id": "1", 
+        "nombre": "Manuela", 
+        "correo": "test@mitest.com" 
+    },
+    { 
+        "id": "2", 
+        "nombre": "Agustin", 
+        "correo": "test@test.com" 
+    },
+    { 
+        "id": "3", 
+        "nombre": "Andreea", 
+        "correo": "testadi@test.com" 
+    }
+    
+]
